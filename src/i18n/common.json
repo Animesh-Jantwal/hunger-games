@@ -117,6 +117,7 @@
       "placeholders": {
         "value": "Value (Fanta, en:organic,...)",
         "brand": "Auchan, Danone, Herta, ...",
+        "country": "France, Germany, Spain, ...",
         "campaign": "Annotation campaigns",
         "predictor": "universal-logo-detector, regex, ..."
       },
