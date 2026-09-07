@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import PriceCheckIcon from "@mui/icons-material/PriceCheck";
 import home_questions from "../../assets/home_questions.svg";
 import home_logos from "../../assets/home_logos.svg";
 
@@ -36,6 +37,12 @@ const cards = [
     desc: "home.game_selector.cards.create_products.description",
     href: "https://prices.openfoodfacts.org/experiments/create-off-product",
     Icon: AddShoppingCartIcon,
+  },
+  {
+    title: "home.game_selector.cards.validate_prices.title",
+    desc: "home.game_selector.cards.validate_prices.description",
+    href: "https://prices.openfoodfacts.org/prices/add/validate",
+    Icon: PriceCheckIcon,
   },
 ];
 

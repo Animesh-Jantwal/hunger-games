@@ -18,6 +18,10 @@
         "create_products": {
           "title": "Create missing products",
           "description": "Add products that are not in the database yet, over on Open Prices"
+        },
+        "validate_prices": {
+          "title": "Validate prices",
+          "description": "Check price submissions from the community, over on Open Prices"
         }
       }
     },
