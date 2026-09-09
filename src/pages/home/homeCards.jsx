@@ -8,6 +8,10 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import Inventory2Icon from "@mui/icons-material/Inventory2";
+import ScaleIcon from "@mui/icons-material/Scale";
+import StorefrontIcon from "@mui/icons-material/Storefront";
+import LabelIcon from "@mui/icons-material/Label";
 import home_questions from "../../assets/home_questions.svg";
 import home_logos from "../../assets/home_logos.svg";
 
@@ -36,6 +40,30 @@ const cards = [
     desc: "home.game_selector.cards.create_products.description",
     href: "https://prices.openfoodfacts.org/experiments/create-off-product",
     Icon: AddShoppingCartIcon,
+  },
+  {
+    title: "home.game_selector.cards.packaging.title",
+    desc: "home.game_selector.cards.packaging.description",
+    link: "/questions?type=packaging",
+    Icon: Inventory2Icon,
+  },
+  {
+    title: "home.game_selector.cards.weights.title",
+    desc: "home.game_selector.cards.weights.description",
+    link: "/questions?type=product_weight",
+    Icon: ScaleIcon,
+  },
+  {
+    title: "home.game_selector.cards.brands.title",
+    desc: "home.game_selector.cards.brands.description",
+    link: "/questions?type=brand",
+    Icon: StorefrontIcon,
+  },
+  {
+    title: "home.game_selector.cards.labels.title",
+    desc: "home.game_selector.cards.labels.description",
+    link: "/questions?type=label",
+    Icon: LabelIcon,
   },
 ];
 

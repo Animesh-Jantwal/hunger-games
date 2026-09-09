@@ -18,6 +18,22 @@
         "create_products": {
           "title": "Create missing products",
           "description": "Add products that are not in the database yet, over on Open Prices"
+        },
+        "packaging": {
+          "title": "Packaging",
+          "description": "Answer questions about how products are packaged"
+        },
+        "weights": {
+          "title": "Weights",
+          "description": "Answer questions about product quantities and weights"
+        },
+        "brands": {
+          "title": "Brands",
+          "description": "Answer questions about which brand a product belongs to"
+        },
+        "labels": {
+          "title": "Labels",
+          "description": "Answer questions about the labels a product carries"
         }
       }
     },
