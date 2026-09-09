@@ -18,6 +18,18 @@
         "create_products": {
           "title": "Create missing products",
           "description": "Add products that are not in the database yet, over on Open Prices"
+        },
+        "nutrition": {
+          "title": "Nutrition",
+          "description": "Read nutrition tables from photos and fill in the values"
+        },
+        "ingredient_spellcheck": {
+          "title": "Ingredient spellcheck",
+          "description": "Correct mistakes in ingredient lists read from packaging"
+        },
+        "ingredient_detection": {
+          "title": "Ingredient crop",
+          "description": "Check where the ingredient list sits on the packaging photo"
         }
       }
     },

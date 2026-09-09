@@ -8,6 +8,9 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
+import SpellcheckIcon from "@mui/icons-material/Spellcheck";
+import CropIcon from "@mui/icons-material/Crop";
 import home_questions from "../../assets/home_questions.svg";
 import home_logos from "../../assets/home_logos.svg";
 
@@ -36,6 +39,24 @@ const cards = [
     desc: "home.game_selector.cards.create_products.description",
     href: "https://prices.openfoodfacts.org/experiments/create-off-product",
     Icon: AddShoppingCartIcon,
+  },
+  {
+    title: "home.game_selector.cards.nutrition.title",
+    desc: "home.game_selector.cards.nutrition.description",
+    link: "/nutrition",
+    Icon: RestaurantMenuIcon,
+  },
+  {
+    title: "home.game_selector.cards.ingredient_spellcheck.title",
+    desc: "home.game_selector.cards.ingredient_spellcheck.description",
+    link: "/ingredient-spellcheck",
+    Icon: SpellcheckIcon,
+  },
+  {
+    title: "home.game_selector.cards.ingredient_detection.title",
+    desc: "home.game_selector.cards.ingredient_detection.description",
+    link: "/ingredient-detection",
+    Icon: CropIcon,
   },
 ];
 
