@@ -146,7 +146,7 @@ function QuestionImage({
             justifyContent: "center",
           }}
         >
-          <Loader />
+          <Loader inline />
         </Box>
       )}
       <ZoomableImage
@@ -177,12 +177,7 @@ export function QuestionStatusMessage({
   return (
     <Box sx={{ width: "100%", textAlign: "center", py: 10 }}>
       <Typography variant="subtitle1">{message}</Typography>
-      {showLoader && (
-        <>
-          <br />
-          <Loader />
-        </>
-      )}
+      {showLoader && <Loader inline />}
     </Box>
   );
 }

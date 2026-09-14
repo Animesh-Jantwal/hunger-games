@@ -145,7 +145,7 @@ const ZoomableImage = ({
                   zIndex: 10,
                 }}
               >
-                <Loader />
+                <Loader inline />
               </Box>
             )}
           </Box>

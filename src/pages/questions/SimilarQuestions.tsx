@@ -59,7 +59,7 @@ export function SimilarQuestions({
 
       <p>{t("questions.similar_questions")}</p>
       {isPending ? (
-        <Loader />
+        <Loader inline />
       ) : similars?.length === 0 ? (
         <p>{t("questions.no_similar_questions")}</p>
       ) : (
