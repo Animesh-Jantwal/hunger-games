@@ -64,7 +64,20 @@ const ZoomableImage = ({
             </TransformComponent>
           </TransformWrapper>
         ) : (
-          <img src={src} alt="" {...imageProps} />
+          <img
+            src={src}
+            alt=""
+            {...imageProps}
+            onClick={() => {
+              setIsOpen(true);
+            }}
+            style={{
+              display: "block",
+              borderRadius: 8,
+              cursor: "zoom-in",
+              ...imageProps?.style,
+            }}
+          />
         )}
         <IconButton
           onClick={() => {
