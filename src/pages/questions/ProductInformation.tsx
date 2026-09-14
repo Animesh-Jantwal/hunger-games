@@ -323,6 +323,17 @@ const ProductInformation = () => {
           >
             {t("insights.view_crops_for_this_product")}
           </Button>
+          <Button
+            size="small"
+            onClick={() =>
+              externalApi.addProductFlag({ barcode: question.barcode })
+            }
+            variant="outlined"
+            color="error"
+            startIcon={<OutlinedFlagIcon />}
+          >
+            {t("questions.flag_product")}
+          </Button>
         </Box>
       </>
 
